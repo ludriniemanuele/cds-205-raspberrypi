@@ -9,8 +9,8 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(PIR_PIN, GPIO.IN)
 
 # ---------- PUSHOVER ----------
-PUSH_TOKEN = "akit1y7bs38a2e675urk4tn83orfg7" # Je nach device anders!
-PUSH_USER  = "urao3t3c4ezs2nhj5wrjbuc686cvxd" 
+PUSH_TOKEN = "Insert_Own_TOKEN" # Je nach device anders!
+PUSH_USER  = "Insert_Own_USER_ID" 
 
 # ---------- CALLBACK ----------
 last_trigger_time = 0
